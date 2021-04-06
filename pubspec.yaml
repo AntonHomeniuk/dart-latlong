@@ -10,7 +10,9 @@ environment:
 
 dependencies:
   logging: ^1.0.1
-  console_log_handler: '>=1.1.0 <2.0.0'
+  console_log_handler:
+    git:
+      url: https://github.com/AntonHomeniuk/dart-console_log_handler.git
     # git: git@github.com:MikeMitterer/dart-console_log_handler.git
     # path: /Volumes/Daten/DevLocal/DevDart/ConsoleLogHandler
 
